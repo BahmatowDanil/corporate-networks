@@ -1,0 +1,102 @@
+{
+  "NavBar": {
+    "Brand": "Corporate systems",
+    "Logout": "Logout"
+  },
+  "Auth": {
+    "Login": {
+      "Header": "Login",
+      "Username": "Username",
+      "Password": "Password",
+      "LoginButton": "Login",
+      "RegisterLink": "Register",
+      "FormErrors": {
+        "Username": "Username is a required field",
+        "Password": "Password is a required field"
+      }
+    },
+    "Register": {
+      "Header": "Register",
+      "Username": "Username",
+      "Password": "Password",
+      "ConfirmPassword": "Confirm password",
+      "Name": "Name",
+      "Age": "E-mail",
+      "Country": "Country",
+      "RegisterButton": "Register",
+      "FormErrors": {
+        "Username": "Username is a required field",
+        "Password": "Password is a required field",
+        "ConfirmPassword": "Confirm password is a required field",
+        "PasswordsDontMatch": "Passwords don't match.",
+        "Name": "Name is a required field",
+        "Age": "E-mail is a required field"
+      }
+    },
+    "useProvideAuth": {
+      "SigninError": "There is no user with such a username and password.",
+      "UserNotFoundError": "User not found."
+    }
+  },
+  "Profile": {
+    "ProfilePage": {
+      "Header": "Profile",
+      "Username": "Username",
+      "Name": "Name",
+      "Age": "E-mail",
+      "Country": "Country",
+      "ChangeLoginInfoButton": "Change username and password"      
+    },
+    "ProfileEditLoginInfoModal": {
+      "Header": "Edit user login info",
+      "Loading": "Loading...",
+      "Username": "Username",
+      "Password": "Password",
+      "ConfirmPassword": "Confirm password",
+      "CancelButton": "Cancel",
+      "SaveButton": "Save",
+      "FormErrors": {
+        "Username": "Username is a required field",
+        "Password": "Password is a required field",
+        "ConfirmPassword": "Confirm password is a required field",
+        "PasswordsDontMatch": "Passwords don't match."
+      }
+    }
+  },
+  "Charts": {
+    "ChartsPage": {
+      "AddChartButton": "Add chart",
+      "EditButton": "Edit",
+      "DeleteButton": "Delete"
+    },
+    "ChartInfo": {
+      "Name": "Name",
+      "Color": "Color"
+    },
+    "SizeSettings": {
+      "Width": "Width",
+      "Height": "Height"
+    },
+    "ChartEditModal": {
+      "Header": "Edit chart",
+      "Loading": "Loading...",
+      "ChartLabel": "Chart",
+      "ColorLabel": "Color",
+      "SaveButton": "Save",
+      "CancelButton": "Cancel",
+      "FormErrors": {
+        "Chart": "Chart is a required field",
+        "A": "A is a required field",
+        "B": "B is a required field",
+        "C": "C is a required field",
+        "Color": "Color is a required field"
+      }
+    },
+    "ChartDeleteModal": {
+      "Header": "Delete chart",
+      "Text": "Are you sure you want to delete this chart?",
+      "DeleteButton": "Delete",
+      "CancelButton": "Cancel"
+    }
+  }
+}

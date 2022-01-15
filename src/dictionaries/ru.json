@@ -1,0 +1,103 @@
+{
+  "NavBar": {
+    "Brand": "Корпоративные системы",
+    "Logout": "Выйти"
+  },
+  "Auth": {
+    "Login": {
+      "Header": "Вход",
+      "Username": "Логин",
+      "Password": "Пароль",
+      "LoginButton": "Войти",
+      "RegisterLink": "Регистрация",
+      "FormErrors": {
+        "Username": "Поле \"Логин\" не должно быть пустым.",
+        "Password": "Поле \"Пароль\" не должно быть пустым."
+      }
+    },
+    "Register": {
+      "Header": "Регистрация",
+      "Username": "Логин",
+      "Password": "Пароль",
+      "ConfirmPassword": "Подтвердите пароль",
+      "Name": "Имя",
+      "Age": "Электронная почта",
+      "Country": "Страна",
+      "RegisterButton": "Зарегистрироваться",
+      "FormErrors": {
+        "Username": "Поле \"Логин\" не должно быть пустым.",
+        "Password": "Поле \"Пароль\" не должно быть пустым.",
+        "ConfirmPassword": "Поле \"Подтвердите пароль\" не должно быть пустым.",
+        "PasswordsDontMatch": "Пароли не совпадают.",
+        "Name": "Поле \"Имя\" не должно быть пустым.",
+        "Age": "Поле \"Электронная почта\" не должно быть пустым.",
+        "Country": "Поле \"Страна\" не должно быть пустым."
+      }
+    },
+    "useProvideAuth": {
+      "SigninError": "Пользователя с такими логином и паролем не существует.",
+      "UserNotFoundError": "Пользователь не найден."
+    }
+  },
+  "Profile": {
+    "ProfilePage": {
+      "Header": "Профиль",
+      "Username": "Логин",
+      "Name": "Имя",
+      "Age": "Электронная почта",
+      "Country": "Страна",
+      "ChangeLoginInfoButton": "Изменить логин и пароль"      
+    },
+    "ProfileEditLoginInfoModal": {
+      "Header": "Изменение информации для входа",
+      "Loading": "Загрузка...",
+      "Username": "Логин",
+      "Password": "Пароль",
+      "ConfirmPassword": "Подтвердите пароль",
+      "CancelButton": "Отмена",
+      "SaveButton": "Сохранить",
+      "FormErrors": {
+        "Username": "Поле \"Логин\" не должно быть пустым.",
+        "Password": "Поле \"Пароль\" не должно быть пустым.",
+        "ConfirmPassword": "Поле \"Подтвердите пароль\" не должно быть пустым.",
+        "PasswordsDontMatch": "Пароли не совпадают."
+      }
+    }
+  },
+  "Charts": {
+    "ChartsPage": {
+      "AddChartButton": "Добавить график",
+      "EditButton": "Изменить",
+      "DeleteButton": "Удалить"
+    },
+    "ChartInfo": {
+      "Name": "Название",
+      "Color": "Цвет"
+    },
+    "SizeSettings": {
+      "Width": "Ширина",
+      "Height": "Высота"
+    },
+    "ChartEditModal": {
+      "Header": "Редактирование графика",
+      "Loading": "Загрузка...",
+      "ChartLabel": "График",
+      "ColorLabel": "Цвет",
+      "SaveButton": "Сохранить",
+      "CancelButton": "Отмена",
+      "FormErrors": {
+        "Chart": "Поле \"График\" не должно быть пустым.",
+        "A": "Поле \"A\" не должно быть пустым.",
+        "B": "Поле \"B\" не должно быть пустым.",
+        "C": "Поле \"C\" не должно быть пустым.",
+        "Color": "Поле \"Цвет\" не должно быть пустым."
+      }
+    },
+    "ChartDeleteModal": {
+      "Header": "Удаление графика",
+      "Text": "Вы действительно хотите удалить этот график?",
+      "DeleteButton": "Удалить",
+      "CancelButton": "Отмена"
+    }
+  }
+}
